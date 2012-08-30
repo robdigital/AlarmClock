@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B74BFC1315EE74850080CE8A /* alarm-clock-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B74BFC1215EE74850080CE8A /* alarm-clock-1.mp3 */; };
 		B764A74D15EE6DB60027FDD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B764A74C15EE6DB60027FDD9 /* UIKit.framework */; };
 		B764A74F15EE6DB60027FDD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B764A74E15EE6DB60027FDD9 /* Foundation.framework */; };
 		B764A75115EE6DB60027FDD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B764A75015EE6DB60027FDD9 /* CoreGraphics.framework */; };
@@ -22,23 +23,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B74BFC1215EE74850080CE8A /* alarm-clock-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "alarm-clock-1.mp3"; sourceTree = "<group>"; };
 		B764A74815EE6DB60027FDD9 /* Alarm Clock Universal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm Clock Universal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B764A74C15EE6DB60027FDD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B764A74E15EE6DB60027FDD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B764A75015EE6DB60027FDD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B764A75215EE6DB60027FDD9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		B764A75615EE6DB60027FDD9 /* Alarm Clock Universal-Info.plist */ = {isa = PBXFileReference; path = "Alarm Clock Universal-Info.plist"; sourceTree = "<group>"; };
+		B764A75615EE6DB60027FDD9 /* Alarm Clock Universal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alarm Clock Universal-Info.plist"; sourceTree = "<group>"; };
 		B764A75815EE6DB60027FDD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B764A75A15EE6DB60027FDD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B764A75C15EE6DB60027FDD9 /* Alarm Clock Universal-Prefix.pch */ = {isa = PBXFileReference; path = "Alarm Clock Universal-Prefix.pch"; sourceTree = "<group>"; };
-		B764A75D15EE6DB60027FDD9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B764A75C15EE6DB60027FDD9 /* Alarm Clock Universal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alarm Clock Universal-Prefix.pch"; sourceTree = "<group>"; };
+		B764A75D15EE6DB60027FDD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B764A75E15EE6DB60027FDD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B764A76115EE6DB70027FDD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B764A76415EE6DB70027FDD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		B764A76715EE6DB70027FDD9 /* Alarm_Clock_Universal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alarm_Clock_Universal.xcdatamodel; sourceTree = "<group>"; };
-		B764A76915EE6DB70027FDD9 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		B764A76915EE6DB70027FDD9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B764A76A15EE6DB70027FDD9 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		B764A76C15EE6DB70027FDD9 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B764A76C15EE6DB70027FDD9 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		B764A76D15EE6DB70027FDD9 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 		B764A75415EE6DB60027FDD9 /* Alarm Clock Universal */ = {
 			isa = PBXGroup;
 			children = (
+				B74BFC1215EE74850080CE8A /* alarm-clock-1.mp3 */,
 				B764A75D15EE6DB60027FDD9 /* AppDelegate.h */,
 				B764A75E15EE6DB60027FDD9 /* AppDelegate.m */,
 				B764A76015EE6DB70027FDD9 /* MainStoryboard_iPhone.storyboard */,
@@ -167,6 +170,7 @@
 				B764A75915EE6DB60027FDD9 /* InfoPlist.strings in Resources */,
 				B764A76215EE6DB70027FDD9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				B764A76515EE6DB70027FDD9 /* MainStoryboard_iPad.storyboard in Resources */,
+				B74BFC1315EE74850080CE8A /* alarm-clock-1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +307,7 @@
 				B764A77315EE6DB70027FDD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

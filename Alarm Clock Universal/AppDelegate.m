@@ -20,8 +20,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    application.applicationIconBadgeNumber = 0;
     MainViewController *controller = (MainViewController *)self.window.rootViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    
+    // Handle launching from a notification
+    UILocalNotification *localNotif = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    if (localNotif) {
+        NSLog(@"Recieved Notification while not in memory : %@",localNotif);
+    }
+    
     return YES;
 }
 							
@@ -65,6 +73,13 @@
             abort();
         } 
     }
+}
+
+- (void)application:(UIApplication *)app didReceiveLocalNotification:(UILocalNotification *)notif {
+    // Handle the notificaton when the app is running
+    NSLog(@"Recieved Notification while running %@",notif);
+    // Post a notification to reloadData
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadData" object:nil];
 }
 
 #pragma mark - Core Data stack
